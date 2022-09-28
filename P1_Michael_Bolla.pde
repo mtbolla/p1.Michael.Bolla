@@ -51,7 +51,7 @@ class Button
   {
   PFont font;
   PFont braille;
-  font = createFont("Helvetica", 20, true);
+  font = createFont("Helvetica", 20, true); //Based on meeting with professor made change to font sizes of buttons
   braille = createFont("Swell-Braille.ttf", 14, true);
   textFont(braille);
   textFont(font);
